@@ -64,7 +64,7 @@ function handleEntityNotFound(res) {
  * @function handleError
  * @description Function that returns response with error details
  * @param {Object} res - Express Framework Response Object
- * @param {Number=} statusCode - Response status code
+ * @param {Number=} statusCode - 
  */
 function handleError(res, statusCode) {
   statusCode = statusCode || 500;
@@ -75,7 +75,7 @@ function handleError(res, statusCode) {
  * @function validationError
  * @description Function that returns response with model validation error details
  * @param {Object} res - Express Framework Response Object
- * @param {Number=} statusCode - Response status code
+ * @param {Number=} statusCode 
  */
 function validationError(res, statusCode) {
   statusCode = statusCode || 422;
